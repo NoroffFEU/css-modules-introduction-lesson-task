@@ -1,0 +1,11 @@
+.heading {
+    color: var(--colour-primary);
+    font-size: 22px;
+    margin-bottom: 3rem;
+}
+
+@media (min-width: 600px) {
+    .heading {
+        font-size: 28px;
+    }
+}

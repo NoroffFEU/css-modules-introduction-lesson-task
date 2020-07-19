@@ -1,0 +1,9 @@
+.heading {
+    text-transform: uppercase;
+    margin-top: 0;
+    font-size: 20px;
+}
+
+.dark {
+    color: var(--colour-copy);
+}

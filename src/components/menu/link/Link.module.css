@@ -1,0 +1,9 @@
+.link {
+    text-decoration: none;
+    margin: 0 1em;
+    text-transform: uppercase;
+}
+
+.active {
+    color: var(--colour-primary);
+}

@@ -1,0 +1,12 @@
+.block {
+    border-radius: 10px;
+    background: var(--colour-primary);
+    display: grid;
+    grid-template-rows: minmax(200px, 1fr);
+    justify-content: center;
+    align-items: center;
+}
+
+.secondary {
+    background: var(--colour-secondary);
+}
