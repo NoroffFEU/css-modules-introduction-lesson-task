@@ -8,7 +8,11 @@ function Link(props) {
         activeClass = styles.active;
     }
 
-    return <a className={`${styles.link} ${activeClass}`}>{props.children}</a>;
+    return (
+        <a href={props.href} className={`${styles.link} ${activeClass}`}>
+            {props.children}
+        </a>
+    );
 }
 
 export default Link;
